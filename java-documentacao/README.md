@@ -10,4 +10,19 @@ Criando nossa documentação no formato html, para disponibilizar via web
 >
 > javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
 
+## Tags
+
+Java Documentation é composto por tags que, representam dados relevantes para a compreensão da proposta de uma classe e os conjuntos de seus métodos e atributos conforme tabela abaixo:
+
+| **Tag**    | **Descrição** |
+| -------- | ------- |
+| @author  | Autor / Criador |
+| @version | Versão do recurso disponibilizado |
+| @since | Versão / Data de início da disponibilização do recurso |
+| @param | Descrição dos parâmetros dos métodos criados |
+| @return | Definição do tipo de retorno de um método |
+| @throws | Se o método lança alguma exceção |
+
+
+
 
