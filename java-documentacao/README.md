@@ -1,15 +1,5 @@
 # JAVA DOCUMENTAÇÃO
 
-## Javadoc
-
-Javadoc é um gerador de documentação criado pela Sun Microsystems , para documentar a API dos programas em Java, a partir do código-fonte. O resultado é expresso em HTML. É constituído, basicamente, por algumas marcações muitos simples, inseridas nos comentários do programa.
-
-Criando nossa documentação no formato html, para disponibilizar via web
-
-> No terminal execute o comando abaixo
->
-> javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
-
 ## Tags
 
 Java Documentation é composto por tags que, representam dados relevantes para a compreensão da proposta de uma classe e os conjuntos de seus métodos e atributos conforme tabela abaixo:
@@ -24,5 +14,17 @@ Java Documentation é composto por tags que, representam dados relevantes para a
 | @throws | Se o método lança alguma exceção |
 
 
+## Exemplo de uso de tags para gerar documentação
+![Código com tags e comentários para documentar métodos, classes, autor, versão e etc](/assets/images/tags-documentacao.png "Classe Calculadora documentação")
+
+## Javadoc
+
+Javadoc é um gerador de documentação criado pela Sun Microsystems , para documentar a API dos programas em Java, a partir do código-fonte. O resultado é expresso em HTML. É constituído, basicamente, por algumas marcações muitos simples, inseridas nos comentários do programa.
+
+Criando nossa documentação no formato html, para disponibilizar via web
+
+> No terminal execute o comando abaixo
+>
+> javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
 
 
