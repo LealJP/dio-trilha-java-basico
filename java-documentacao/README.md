@@ -15,7 +15,7 @@ Java Documentation é composto por tags que, representam dados relevantes para a
 
 
 ## Exemplo de uso de tags para gerar documentação
-![Código com tags e comentários para documentar métodos, classes, autor, versão e etc](/assets/images/tags-documentacao.png "Classe Calculadora documentação")
+![Código com tags e comentários para documentar métodos, classes, autor, versão e etc](/assets/images/tags-documentacao.png?raw=true "Classe Calculadora documentação")
 
 ## Javadoc
 
