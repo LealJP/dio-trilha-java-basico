@@ -3,6 +3,7 @@ import java.util.Locale;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
+        
         //TODO: Conhecer e importar a classe scanner
         
         //Exibir as mensagens para o nosso usuário
@@ -15,10 +16,10 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
         System.out.println("Por favor digite o nome completo do cliente: ");
-        String nomeCliente = scanner.next();
+        String nomeCliente = scanner.nextLine();
 
         System.out.println("Por favor digite o número da agência: ");
-        String agencia = scanner.next();
+        String agencia = scanner.nextLine();
 
         System.out.println("Por favor digite o número da conta: ");
         int numeroConta = scanner.nextInt();
@@ -26,7 +27,8 @@ public class ContaTerminal {
         System.out.println("Por favor entre com o valor do saldo: ");
         double saldo = scanner.nextDouble();
 
-        System.out.printf("Olá "+ nomeCliente);
+        scanner.close();
+        System.out.printf("Olá "+ nomeCliente + ", sua agência é a " +agencia+ ", conta de número " +numeroConta+ " e saldo de R$" +saldo);
 
     }
 }
